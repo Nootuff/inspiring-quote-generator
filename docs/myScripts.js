@@ -4,16 +4,16 @@ let authorHolder = document.getElementById("author");
 
 let backgroundContainer = document.getElementById("backgroundContainer");
 
-let backgrounds = ["url('Assets/alex-green-OdEdGWr0EkM-unsplash.jpg')", 
-"url('Assets/casey-horner-vPiz8ZQ9Wf8-unsplash.jpg')",
-"url('Assets/david-billings-Zmfz5jqgSiI-unsplash.jpg')",
-"url('Assets/jeremy-bishop-2e3hgvDnCpM-unsplash.jpg')", 
-"url('Assets/michael-baccin-Cv5ooHwI2DQ-unsplash.jpg')",
-"url('Assets/milkovi-sGj7xKpukpQ-unsplash.jpg')", 
-"url('Assets/nathan-anderson-_tBeFVZPlPY-unsplash.jpg')",
-"url('Assets/taneli-lahtinen-ycmLVgeIUPE-unsplash.jpg')",
-"url('Assets/todd-trapani-fdDFCnUOleg-unsplash.jpg')", 
-"url('Assets/zetong-li-7pUHeP1GRC4-unsplash.jpg')"
+let backgrounds = ["url('../Assets/alex-green-OdEdGWr0EkM-unsplash.jpg')", 
+"url('../Assets/casey-horner-vPiz8ZQ9Wf8-unsplash.jpg')",
+"url('../Assets/david-billings-Zmfz5jqgSiI-unsplash.jpg')",
+"url('../Assets/jeremy-bishop-2e3hgvDnCpM-unsplash.jpg')", 
+"url('../Assets/michael-baccin-Cv5ooHwI2DQ-unsplash.jpg')",
+"url('../Assets/milkovi-sGj7xKpukpQ-unsplash.jpg')", 
+"url('../Assets/nathan-anderson-_tBeFVZPlPY-unsplash.jpg')",
+"url('../Assets/taneli-lahtinen-ycmLVgeIUPE-unsplash.jpg')",
+"url('../Assets/todd-trapani-fdDFCnUOleg-unsplash.jpg')", 
+"url('../Assets/zetong-li-7pUHeP1GRC4-unsplash.jpg')"
 ];
 
 function genQuote() {
