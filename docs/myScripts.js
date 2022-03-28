@@ -5,7 +5,7 @@ let authorHolder = document.getElementById("author");
 let backgroundContainer = document.getElementById("backgroundContainer");
 
 let backgrounds = [ //The issue is caused by github looking for this images with this: https://nootuff.github.io/Assets/alex-green-OdEdGWr0EkM-unsplash.jpg, image hosting is going to work differently. Store the images  You could also, refactor this into jsut a number generator. 
-  "url('../1.jpg')",
+ /* "url('../1.jpg')",
   "url('../Assets/2.jpg')",
   "url('../Assets/3.jpg')",
   "url('../Assets/4.jpg')",
@@ -14,7 +14,17 @@ let backgrounds = [ //The issue is caused by github looking for this images with
   "url('../Assets/7.jpg')",
   "url('../Assets/8.jpg')",
   "url('../Assets/9.jpg')",
-  "url('../Assets/10.jpg')"
+  "url('../Assets/10.jpg')"*/
+  "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/1.jpg')",
+  "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/2.jpg')",
+  "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/3.jpg')",
+  "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/4.jpg')",
+  "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/5.jpg')",
+  "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/6.jpg')",
+  "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/7.jpg')",
+  "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/8.jpg')",
+  "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/9.jpg')",
+  "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/10.jpg')"
 ];
 
 function genQuote() {
@@ -24,6 +34,7 @@ function genQuote() {
       let quoteText = "\"" + body.data.quotes[rand].quote + "\"";   // "test"
       let authorText = body.data.quotes[rand].author;
       let randBackground = Math.floor(Math.random() * backgrounds.length);
+
       $(".quoteNAuthor").animate({ opacity: '0' }, function () {
         quoteHolder.textContent = quoteText;
         authorHolder.textContent = authorText; $(".quoteNAuthor").animate({ opacity: '1' });
