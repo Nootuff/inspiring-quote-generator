@@ -5,7 +5,7 @@ let authorHolder = document.getElementById("author");
 let backgroundContainer = document.getElementById("backgroundContainer");
 
 let backgrounds = [ // You could , refactor this into jsut a number generator. 
- /* "url('../Assets/1.jpg')",
+ "url('../Assets/1.jpg')",
   "url('../Assets/2.jpg')",
   "url('../Assets/3.jpg')",
   "url('../Assets/4.jpg')",
@@ -14,8 +14,9 @@ let backgrounds = [ // You could , refactor this into jsut a number generator.
   "url('../Assets/7.jpg')",
   "url('../Assets/8.jpg')",
   "url('../Assets/9.jpg')",
-  "url('../Assets/10.jpg')" */
-   "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/1.jpg')",
+  "url('../Assets/10.jpg')" 
+  
+  /* "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/1.jpg')",
   "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/2.jpg')",
   "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/3.jpg')",
   "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/4.jpg')",
@@ -25,7 +26,7 @@ let backgrounds = [ // You could , refactor this into jsut a number generator.
   "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/8.jpg')",
   "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/9.jpg')",
   "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/10.jpg')"
-  
+  */
 ];
 
 function genQuote() {
