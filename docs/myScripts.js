@@ -15,7 +15,6 @@ let backgrounds = [ // You could , refactor this into jsut a number generator.
   "url('./imgs/8.jpg')",
   "url('./imgs/9.jpg')",
   "url('./imgs/10.jpg')" 
-  
   /* "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/1.jpg')",
   "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/2.jpg')",
   "url('https://raw.githubusercontent.com/Nootuff/inspiring-quote-generator/main/Assets/3.jpg')",
