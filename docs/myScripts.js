@@ -45,7 +45,9 @@ function genQuote() {
       })
       
       $("#backgroundContainer").animate({ opacity: '0' }, function () { //insead of #backgroundContainer would could use a random number generator to pick one of the invisible image divs. After each generation, loop through all the other divs and amke sure opacity is 0.
+        console.log(backgrounds[randBackground]);
         backgroundContainer.style.backgroundImage = backgrounds[randBackground];
+        
         $("#backgroundContainer").animate({ opacity: '1' });
       }) 
 
