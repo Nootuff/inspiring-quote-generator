@@ -78,9 +78,17 @@ button:hover {
   color: white;
 }
 
+.fa-twitter{
+  transition: 0.3s;
+}
 
+#tweet-quote:hover + .fa-twitter { color: #428aff; }
 
 footer {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   text-align: center;
   position: absolute;
@@ -93,12 +101,37 @@ footer {
   background: rgba(0, 0, 0, 0.6);
 }
 
-footer p {
+/* footer p {
   font-size: 15px;
 }
 
 footer a {
   text-decoration: underline;
+} */
+
+
+
+  .footerItem:not(:first-child) {
+    border-left: 1px solid white;
+  }
+  
+   table {
+    margin: auto;
+  }
+  
+   td {
+    color: var(--white-color);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .Footer {
+        font-size: 17px;
+        text-align: left;
+      }
 }
 
 
