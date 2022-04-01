@@ -125,7 +125,7 @@ const quoteGen = () => {
         $("#backgroundContainer").animate({ opacity: '1' });
       })
 
-      $("#tweet-quote").attr("href", `https://twitter.com/intent/tweet?text=${quoteText}: ${authorText}`);
+      $("#tweet-quote").attr("href", `https://twitter.com/intent/tweet?text=${quoteText}: ${authorText}&hashtags=inspirational`);
 
     })
     .catch((err) => {
