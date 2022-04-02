@@ -14,6 +14,14 @@ body {
   height: 115vh;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 #wrapper {
   position: relative;
   height: 100%;
@@ -52,19 +60,6 @@ body {
   font-style: italic;
 }
 
-#credits {
-  margin-top: 20px;
-  font-size: 13px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 button {
   border: none;
   padding: 9px 15px;
@@ -93,6 +88,11 @@ button:active {
 
 #tweet-quote:hover+.fa-twitter {
   color: var(--blue);
+}
+
+#credits {
+  margin-top: 20px;
+  font-size: 13px;
 }
 
 footer {
